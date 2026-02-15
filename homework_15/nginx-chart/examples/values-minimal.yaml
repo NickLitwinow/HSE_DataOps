@@ -1,0 +1,39 @@
+# Вариант 1: Минимальный деплой
+# Без ресурсных лимитов, без ingress, 1 реплика, latest версия nginx
+# helm install nginx-minimal ./nginx-chart -f examples/values-minimal.yaml
+
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: "latest"
+  pullPolicy: Always
+
+ingress:
+  enabled: false
+
+resources:
+  enabled: false
+
+sharedMemory:
+  enabled: false
+
+probes:
+  startup:
+    enabled: true
+    initialDelaySeconds: 3
+    periodSeconds: 3
+    failureThreshold: 10
+    timeoutSeconds: 2
+  readiness:
+    enabled: true
+    initialDelaySeconds: 3
+    periodSeconds: 5
+    failureThreshold: 3
+    timeoutSeconds: 2
+  liveness:
+    enabled: true
+    initialDelaySeconds: 10
+    periodSeconds: 15
+    failureThreshold: 3
+    timeoutSeconds: 2
