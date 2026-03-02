@@ -1,0 +1,30 @@
+jupyterhub  | [I 2026-03-02 20:30:16.109 JupyterHub app:3364] Running JupyterHub version 5.4.3
+jupyterhub  | [I 2026-03-02 20:30:16.109 JupyterHub app:3394] Using Authenticator: jupyterhub.auth.DummyAuthenticator-5.4.3
+jupyterhub  | [I 2026-03-02 20:30:16.109 JupyterHub app:3394] Using Spawner: jupyterhub.spawner.SimpleLocalProcessSpawner-5.4.3
+jupyterhub  | [I 2026-03-02 20:30:16.109 JupyterHub app:3394] Using Proxy: jupyterhub.proxy.ConfigurableHTTPProxy-5.4.3
+jupyterhub  | /usr/local/lib/python3.14/site-packages/jupyter_events/schema.py:68: JupyterEventsVersionWarning: The `version` property of an event schema must be a string. It has been type coerced, but in a future version of this library, it will fail to validate. Please update schema: https://schema.jupyter.org/jupyterhub/events/server-action
+jupyterhub  |   validate_schema(_schema)
+jupyterhub  | [I 2026-03-02 20:30:16.110 JupyterHub app:1880] Writing cookie_secret to /srv/jupyterhub/jupyterhub_cookie_secret
+jupyterhub  | [I 2026-03-02 20:30:16.118 alembic.runtime.migration migration:210] Context impl SQLiteImpl.
+jupyterhub  | [I 2026-03-02 20:30:16.118 alembic.runtime.migration migration:213] Will assume non-transactional DDL.
+jupyterhub  | [I 2026-03-02 20:30:16.120 alembic.runtime.migration migration:621] Running stamp_revision  -> 4621fec11365
+jupyterhub  | [W 2026-03-02 20:30:16.156 JupyterHub auth:1537] DummyAuthenticator.password is deprecated in JupyterHub 5.3. Use SharedPasswordAuthenticator.user_password instead.
+jupyterhub  | [W 2026-03-02 20:30:16.160 JupyterHub auth:1541] Using testing authenticator DummyAuthenticator! This is not meant for production!
+jupyterhub  | [I 2026-03-02 20:30:16.162 JupyterHub roles:281] Adding role admin for User: admin
+jupyterhub  | [I 2026-03-02 20:30:16.163 JupyterHub roles:281] Adding role user for User: admin
+jupyterhub  | [I 2026-03-02 20:30:16.174 JupyterHub app:3434] Initialized 0 spawners in 0.002 seconds
+jupyterhub  | [I 2026-03-02 20:30:16.176 JupyterHub metrics:425] Found 0 active users in the last ActiveUserPeriods.twenty_four_hours
+jupyterhub  | [I 2026-03-02 20:30:16.176 JupyterHub metrics:425] Found 0 active users in the last ActiveUserPeriods.seven_days
+jupyterhub  | [I 2026-03-02 20:30:16.176 JupyterHub metrics:425] Found 0 active users in the last ActiveUserPeriods.thirty_days
+jupyterhub  | [W 2026-03-02 20:30:16.177 JupyterHub proxy:748] Running JupyterHub without SSL.  I hope there is SSL termination happening somewhere else...
+jupyterhub  | [I 2026-03-02 20:30:16.177 JupyterHub proxy:752] Starting proxy @ http://0.0.0.0:8000/
+jupyterhub  | 2026-03-02T20:30:16.263Z [ConfigProxy] [32minfo[39m: Proxying http://0.0.0.0:8000 to (no default)
+jupyterhub  | 2026-03-02T20:30:16.264Z [ConfigProxy] [32minfo[39m: Proxy API at http://127.0.0.1:8001/api/routes
+jupyterhub  | [I 2026-03-02 20:30:16.959 JupyterHub app:3757] Hub API listening on http://127.0.0.1:8081/hub/
+jupyterhub  | 2026-03-02T20:30:16.959Z [ConfigProxy] [32minfo[39m: 200 GET /api/routes 
+jupyterhub  | 2026-03-02T20:30:16.961Z [ConfigProxy] [32minfo[39m: 200 GET /api/routes 
+jupyterhub  | [I 2026-03-02 20:30:16.961 JupyterHub proxy:477] Adding route for Hub: / => http://127.0.0.1:8081
+jupyterhub  | 2026-03-02T20:30:16.964Z [ConfigProxy] [32minfo[39m: Adding route / -> http://127.0.0.1:8081
+jupyterhub  | 2026-03-02T20:30:16.964Z [ConfigProxy] [32minfo[39m: Route added / -> http://127.0.0.1:8081
+jupyterhub  | 2026-03-02T20:30:16.964Z [ConfigProxy] [32minfo[39m: 201 POST /api/routes/ 
+jupyterhub  | [I 2026-03-02 20:30:16.965 JupyterHub app:3788] JupyterHub is now running at http://0.0.0.0:8000/
