@@ -1,0 +1,3 @@
+mlflow-minio-init  | Added `myminio` successfully.
+mlflow-minio-init  | Bucket created successfully `myminio/mlflow-artifacts`.
+mlflow-minio-init  | MinIO bucket mlflow-artifacts created successfully
