@@ -1,0 +1,17 @@
+airflow-scheduler  | 
+airflow-scheduler  |   ____________       _____________
+airflow-scheduler  |  ____    |__( )_________  __/__  /________      __
+airflow-scheduler  | ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+airflow-scheduler  | ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+airflow-scheduler  |  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+airflow-scheduler  | [2026-03-10T17:27:30.789+0000] {executor_loader.py:258} INFO - Loaded executor: LocalExecutor
+airflow-scheduler  | [2026-03-10T17:27:30.821+0000] {scheduler_job_runner.py:950} INFO - Starting the scheduler
+airflow-scheduler  | [2026-03-10T17:27:30.821+0000] {scheduler_job_runner.py:957} INFO - Processing each file at most -1 times
+airflow-scheduler  | [2026-03-10 17:27:30 +0000] [24] [INFO] Starting gunicorn 23.0.0
+airflow-scheduler  | [2026-03-10 17:27:30 +0000] [24] [INFO] Listening at: http://[::]:8793 (24)
+airflow-scheduler  | [2026-03-10 17:27:30 +0000] [24] [INFO] Using worker: sync
+airflow-scheduler  | [2026-03-10 17:27:30 +0000] [25] [INFO] Booting worker with pid: 25
+airflow-scheduler  | [2026-03-10T17:27:30.865+0000] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 118
+airflow-scheduler  | [2026-03-10T17:27:30.866+0000] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+airflow-scheduler  | [2026-03-10 17:27:30 +0000] [137] [INFO] Booting worker with pid: 137
+airflow-scheduler  | [2026-03-10T17:27:30.887+0000] {settings.py:63} INFO - Configured default timezone UTC

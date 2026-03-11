@@ -1,0 +1,14 @@
+airflow-triggerer  | 
+airflow-triggerer  |   ____________       _____________
+airflow-triggerer  |  ____    |__( )_________  __/__  /________      __
+airflow-triggerer  | ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+airflow-triggerer  | ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+airflow-triggerer  |  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+airflow-triggerer  | [2026-03-10 17:27:29 +0000] [15] [INFO] Starting gunicorn 23.0.0
+airflow-triggerer  | [2026-03-10 17:27:29 +0000] [15] [INFO] Listening at: http://[::]:8794 (15)
+airflow-triggerer  | [2026-03-10 17:27:29 +0000] [15] [INFO] Using worker: sync
+airflow-triggerer  | [2026-03-10 17:27:29 +0000] [16] [INFO] Booting worker with pid: 16
+airflow-triggerer  | [2026-03-10 17:27:29 +0000] [24] [INFO] Booting worker with pid: 24
+airflow-triggerer  | [2026-03-10T17:27:29.795+0000] {triggerer_job_runner.py:181} INFO - Setting up TriggererHandlerWrapper with handler <FileTaskHandler (NOTSET)>
+airflow-triggerer  | [2026-03-10T17:27:29.796+0000] {triggerer_job_runner.py:237} INFO - Setting up logging queue listener with handlers [<RedirectStdHandler <stdout> (NOTSET)>, <TriggererHandlerWrapper (NOTSET)>]
+airflow-triggerer  | [2026-03-10T17:27:29.800+0000] {triggerer_job_runner.py:338} INFO - Starting the triggerer
