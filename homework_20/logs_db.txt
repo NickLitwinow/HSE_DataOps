@@ -1,0 +1,56 @@
+lakefs-db  | The files belonging to this database system will be owned by user "postgres".
+lakefs-db  | This user must also own the server process.
+lakefs-db  | 
+lakefs-db  | The database cluster will be initialized with locale "en_US.utf8".
+lakefs-db  | The default database encoding has accordingly been set to "UTF8".
+lakefs-db  | The default text search configuration will be set to "english".
+lakefs-db  | 
+lakefs-db  | Data page checksums are disabled.
+lakefs-db  | 
+lakefs-db  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+lakefs-db  | creating subdirectories ... ok
+lakefs-db  | selecting dynamic shared memory implementation ... posix
+lakefs-db  | selecting default max_connections ... 100
+lakefs-db  | selecting default shared_buffers ... 128MB
+lakefs-db  | selecting default time zone ... Etc/UTC
+lakefs-db  | creating configuration files ... ok
+lakefs-db  | running bootstrap script ... ok
+lakefs-db  | performing post-bootstrap initialization ... ok
+lakefs-db  | initdb: warning: enabling "trust" authentication for local connections
+lakefs-db  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+lakefs-db  | syncing data to disk ... ok
+lakefs-db  | 
+lakefs-db  | 
+lakefs-db  | Success. You can now start the database server using:
+lakefs-db  | 
+lakefs-db  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+lakefs-db  | 
+lakefs-db  | waiting for server to start....2026-03-11 01:49:44.301 UTC [48] LOG:  starting PostgreSQL 15.17 (Debian 15.17-1.pgdg13+1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+lakefs-db  | 2026-03-11 01:49:44.302 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+lakefs-db  | 2026-03-11 01:49:44.303 UTC [51] LOG:  database system was shut down at 2026-03-11 01:49:44 UTC
+lakefs-db  | 2026-03-11 01:49:44.305 UTC [48] LOG:  database system is ready to accept connections
+lakefs-db  |  done
+lakefs-db  | server started
+lakefs-db  | CREATE DATABASE
+lakefs-db  | 
+lakefs-db  | 
+lakefs-db  | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+lakefs-db  | 
+lakefs-db  | waiting for server to shut down....2026-03-11 01:49:44.439 UTC [48] LOG:  received fast shutdown request
+lakefs-db  | 2026-03-11 01:49:44.440 UTC [48] LOG:  aborting any active transactions
+lakefs-db  | 2026-03-11 01:49:44.440 UTC [48] LOG:  background worker "logical replication launcher" (PID 54) exited with exit code 1
+lakefs-db  | 2026-03-11 01:49:44.440 UTC [49] LOG:  shutting down
+lakefs-db  | 2026-03-11 01:49:44.441 UTC [49] LOG:  checkpoint starting: shutdown immediate
+lakefs-db  | 2026-03-11 01:49:44.457 UTC [49] LOG:  checkpoint complete: wrote 922 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.011 s, total=0.017 s; sync files=301, longest=0.005 s, average=0.001 s; distance=4239 kB, estimate=4239 kB
+lakefs-db  | 2026-03-11 01:49:44.459 UTC [48] LOG:  database system is shut down
+lakefs-db  |  done
+lakefs-db  | server stopped
+lakefs-db  | 
+lakefs-db  | PostgreSQL init process complete; ready for start up.
+lakefs-db  | 
+lakefs-db  | 2026-03-11 01:49:44.550 UTC [1] LOG:  starting PostgreSQL 15.17 (Debian 15.17-1.pgdg13+1) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+lakefs-db  | 2026-03-11 01:49:44.550 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+lakefs-db  | 2026-03-11 01:49:44.550 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+lakefs-db  | 2026-03-11 01:49:44.551 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+lakefs-db  | 2026-03-11 01:49:44.553 UTC [64] LOG:  database system was shut down at 2026-03-11 01:49:44 UTC
+lakefs-db  | 2026-03-11 01:49:44.554 UTC [1] LOG:  database system is ready to accept connections

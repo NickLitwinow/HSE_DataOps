@@ -1,0 +1,3 @@
+lakefs-minio-init  | Added `myminio` successfully.
+lakefs-minio-init  | Bucket created successfully `myminio/lakefs-data`.
+lakefs-minio-init  | MinIO bucket lakefs-data created successfully
