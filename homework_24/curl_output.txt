@@ -1,0 +1,11 @@
+$ curl -s -X POST http://localhost:8000/api/v1/predict -H "Content-Type: application/json" -d '{"age": 59, "sex": 2, "bmi": 32.1, "bp": 101, "s1": 157, "s2": 93.2, "s3": 38, "s4": 4, "s5": 4.9, "s6": 87}'
+{"predict":230.87}
+
+$ curl -s -X POST http://localhost:8000/api/v1/predict -H "Content-Type: application/json" -d '{"age": 48, "sex": 1, "bmi": 21.6, "bp": 87, "s1": 183, "s2": 103.2, "s3": 70, "s4": 3, "s5": 3.9, "s6": 69}'
+{"predict":82.04}
+
+$ curl -s -X POST http://localhost:8000/api/v1/predict -H "Content-Type: application/json" -d '{"age": 72, "sex": 2, "bmi": 30.5, "bp": 93, "s1": 156, "s2": 93.6, "s3": 41, "s4": 4, "s5": 4.7, "s6": 85}'
+{"predict":162.22}
+{"predict":230.87}
+{"predict":82.04}
+{"predict":162.22}

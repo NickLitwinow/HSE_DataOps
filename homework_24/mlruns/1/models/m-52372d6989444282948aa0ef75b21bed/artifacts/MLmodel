@@ -1,0 +1,23 @@
+artifact_path: /Users/litwein/GithubControl/HSE_DataOps/homework_24/mlruns/1/models/m-52372d6989444282948aa0ef75b21bed/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-52372d6989444282948aa0ef75b21bed
+model_size_bytes: 2313329
+model_uuid: m-52372d6989444282948aa0ef75b21bed
+prompts: null
+run_id: 6bbaceb3a0e5424ca3075299d3a5813a
+utc_time_created: '2026-03-12 17:09:45.253672'
